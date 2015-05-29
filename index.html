@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+  <section id="main">
+    <div class="content">
+    <div class="row text-center logo">
+		<img src="img/aif_case_converter.png" title="aif Case Converter Logo" alt="aif Case Converter Logo">
+	</div>
+    <div class="full" id="texsection">
+        <div class="large-10 large-offset-1 columns">
+          <textarea>
+
+          </textarea>
+
+        </div>
+      <div class="row" id="doc-almost-flat-button-groups">
+        <div class="large-12 columns">
+          <ul class="button-group round even-3">
+            <li><input type="submit" id="uppercase" class="button success" value="uppercase"></li>
+            <li><input type="submit" id="lowercase" class="button success" value="lowercase"></li>
+            <li><input type="submit" id="capitalize" class="button success" value="capitalize"></li>
+          </ul>
+        </div>
+
+      </div>
+	</div>
+    </div>
+  </section>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $("#uppercase").click(function() {
+        $("textarea").addClass("uppercase");
+      });
+      $("#lowercase").click(function() {
+        $("textarea").addClass("lowercase");
+      });
+      $("#capitalize").click(function() {
+        $("textarea").addClass("capitalize");
+      });
+    </script>
+  </body>
+</html>

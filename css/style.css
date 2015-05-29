@@ -1,0 +1,61 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+#main:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #ecf0f1;
+    display: block;
+    height: 100%;
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+}
+.content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    border: 20px solid rgba(0,0,0,.15);
+    height: 100%;
+}
+.logo{
+    padding: 50px  0 20px;
+}
+#texsection{
+    margin: 50px 0 15px 0;
+}
+#texsection textarea{
+    background-color: transparent;
+    height: 500px;
+    border: 1px solid #FFBE3A;
+    color: #221F1F;
+    font-weight: 400;
+}
+button.success, .button.success {
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #FFBE3A !important;
+    color: #000;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+    background-color: #FFBE3A;
+    color: #000;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
