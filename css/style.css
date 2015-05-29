@@ -42,9 +42,10 @@ button.success, .button.success {
     border-radius: 0px !important;
     border: 2px solid;
     border-color: #fff !important;
-    color: #000;
+    color: #fff;
     font-weight: 300;
-    text-transform: uppercase;
+    font-size: 18px;
+    text-transform: lowercase;
     letter-spacing: 2px;
 }
 button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
