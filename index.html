@@ -39,12 +39,15 @@
     <script src="js/foundation.min.js"></script>
     <script>
       $("#uppercase").click(function() {
+        $("textarea").removeClass("lowercase capitalize");
         $("textarea").addClass("uppercase");
       });
       $("#lowercase").click(function() {
+        $("textarea").removeClass("uppercase capitalize");
         $("textarea").addClass("lowercase");
       });
       $("#capitalize").click(function() {
+        $("textarea").removeClass("uppercase lowercase");
         $("textarea").addClass("capitalize");
       });
     </script>
